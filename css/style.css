@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fefefe;
+  color: #080808;
+  font-size: 16pt
 }
 
 nav {
@@ -32,6 +33,26 @@ nav {
   float: right;
 }
 
+.center, .caption {
+  text-align:center;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: 'Montserrat', Arial, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 125%;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
 ul {
   list-style-type: none;
   float: right;
@@ -42,11 +63,45 @@ li {
   padding: 30px;
 }
 
+a {
+  font-family: 'Montserrat', Arial, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, .2);
+}
 article {
   padding-top: 100px;
+}
+
+p {
+  padding-bottom: 25px;
+  font-family: 'Montserrat', Arial, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: .85em;
+  line-height: 125%;
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+.caption {
+  font-size: 0.75em;
+  font-style: italic;
+  font-family: 'Montserrat', Arial, Verdana, sans-serif;
+  padding-top: 5px;
+}
+
+.author {
+  font-size: .85em;
+  font-family: 'Montserrat', Arial, Verdana, sans-serif;
+  font-weight: bold;
+  padding-bottom: 35px;
 }
